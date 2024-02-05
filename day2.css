@@ -1,0 +1,192 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(ll.jpg);
+    background-size: cover;
+}
+
+/*  */ 
+.div1{
+    height: 499px;
+    width: 200px;
+    background-color: rgb(67, 152, 124);
+    display: inline-block;
+}
+/* div2 */
+.div2{
+    color: black;
+    display: inline-block;
+    display: flex;
+   
+    width: 550px;
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    justify-content: space-evenly;
+   
+    
+    left: 260px;
+}
+.info{
+    align-items: end;
+    position: absolute;
+    color: rgba(00, 00, 00, 0.5);
+    bottom: 9px;
+  font-size: 10px;
+  left: 84px;
+}
+.info2{
+    align-items: end;
+    position: absolute;
+    bottom: 9px;
+    color: rgba(00, 00, 00, 0.5);
+  font-size: 10px;
+  left: 190px;
+}
+.info3{
+    align-items: end;
+    position: absolute;
+    bottom: 9px;
+  font-size: 10px;
+  right: 200px;
+}
+.info4{
+    align-items: end;
+    position: absolute;
+    bottom: 9px;
+  font-size: 10px;
+  color: rgba(00, 00, 00, 0.5);
+  right: 84px;
+}
+.circle{
+    height: 16px;
+    text-align: center;
+    width: 16px;
+    border-radius: 50%;
+    background-color: gray;
+    
+}
+/* card */
+.card{
+    height: 130px;
+    width: 200px;
+    background-color: rgba(231, 116, 101, 0.824);
+    display: inline-block;
+    position: absolute;
+    top: 50px;
+    margin-left: 170px;
+    border-radius: 8px;
+    color: white;
+}
+.minicard{
+    height: 25px;
+    width: 35px;
+    border-radius: 2px;
+    background-color: white;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+h2{
+    position: absolute;
+    top: 5px;
+    color: white;
+    right: 5px;
+}
+h3{
+    font-size: 7px;
+    position: absolute;
+    bottom: 19px;
+    left: 5px;
+    text-transform: uppercase;
+}
+h4{
+    font-size: 7px;
+    position: absolute;
+    bottom: 19px;
+    right: 7px;
+    text-transform: uppercase;
+}
+/* div4 */
+.div4{
+    height: 200px;
+    display: inline-block;
+    margin-bottom: 100px;
+    width: 250px;
+
+    position: relative;
+    bottom: 150px;
+    left: 100px;
+  
+}
+h5{
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+input{
+    margin-bottom: 10px;
+    text-align: center;
+   
+}
+p{
+    font-size: small;
+    
+}
+.date{
+    font-size: 10px;
+    width: 75px;
+}
+.cvv{
+    position: absolute;
+    right: 125px;
+    bottom: 70px;
+}
+.cvvp{
+    font-size: 5px;
+    bottom: 50px;
+
+    position: absolute;
+    right: 83px;
+}
+/* div5 */
+.div5{
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+    left: 440px;
+    bottom: 450px;;
+   align-items: end;
+}
+.amouontdetails{
+    margin-bottom: 8px;
+}
+button{
+   
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: rgb(25, 188, 25);
+    height: 19px;
+    border-radius: 2px;
+    width: 120px;
+    border: none;
+}
+button a{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+}
+.day002{
+display: inline-block;
+height: 100px;
+width: 150px;
+
+position: absolute;
+right: 0px;
+top: 200px;
+}
