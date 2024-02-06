@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(oo.png);
+    background-size: cover;
+}
+.div1{
+    width: 684.5px;
+    color: white;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 10px;
+        margin-top: 60px;
+    background-color: black;
+    margin-left: 165px;
+    border-bottom: 1px solid white;
+    z-index: 8;
+}
+.div1 a{
+    color: white;
+    text-decoration: none;
+}
+.div2{
+    background-color: rgb(77, 71, 62);
+    width: 600px;
+    height: 300px;
+    margin-left: 250px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
+}
+.div2 p{
+    color: white;
+    font-size: 13px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+P{
+    margin-right: 10px;
+}
+button{
+    font-size: 35px;
+    border-radius: 10px;
+    margin-right: 50px;
+    border: none;
+    background-color: green;
+    font-size: 40px;
+}
+button a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}.div3{
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 94PX;
+    left: 290PX;
+}
+.div32{
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.photo{
+    height: 301px;
+    width: 300px;
+    background-image: url(olivia.png);
+    background-size: cover;
+    position: absolute;
+    top: 93px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    left: 166px;
+    border: none;
+}
+h1{
+    color: white;
+    margin-bottom: 50px;
+  
+}
+.day003{
+    display: inline-block;
+    position: absolute;
+    right: 3px;
+    top: 200px;
+}
+
+/*  */
