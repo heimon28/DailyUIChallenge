@@ -1,0 +1,114 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  width: 220px;
+  height: 390px;
+  margin-top: 50px;
+  margin-left: 400px;
+  font-family: Arial, sans-serif;
+  background-color: rgb(255, 255, 255);
+  border-radius: 9px;
+  border: 1px solid black;
+}
+.div2 {
+  width: 220px;
+  height: 30px;
+  border-radius: 9px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.time {
+  width: 40px;
+  height: 19px;
+  font-size: 11px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  color: #000;
+  margin-left: 5px;
+}
+.innerdiv {
+  height: 19px;
+  width: 100%;
+  margin: 0px 30px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+}
+i {
+  margin-right: 5px;
+
+  font-size: 11px;
+}
+h1 {
+  color: rgb(0, 0, 0);
+  font-size: 1rem;
+  margin: 15px 7px;
+}
+.search {
+  background-color: white;
+  width: 200px;
+  border-radius: 9px;
+  margin-left: 9px;
+}
+input {
+  border: none;
+}
+.profile {
+  width: 206px;
+  background-color: rgb(249, 249, 249);
+  height: 29px;
+  margin: 19px 6px 0px 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.circle {
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+  background-image: url(profile.jpg);
+  background-size: cover;
+}
+
+.icon {
+  width: 206px;
+  background-color: rgb(249, 249, 249);
+  height: 29px;
+  margin: 5px 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cc i {
+  margin-left: 7px;
+}
+h5 {
+  margin-right: 70px;
+}
+.d h5 {
+  margin-right: 80px;
+}
+.g h5 {
+  margin-right: 99px;
+}
+.w h5 {
+  margin-right: 60px;
+}
+.b h5 {
+  margin-right: 50px;
+}
+.s h5 {
+  margin-right: 99px;
+}
+.sc h5 {
+  margin-right: 65px;
+}
+p {
+  font-size: 11px;
+  color: #a4abb3;
+}
