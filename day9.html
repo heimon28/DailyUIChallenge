@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media player</title>
+    <link rel="stylesheet" href="day9.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="item sidebar">
+        <div class="menu"></div>
+        <div class="menu m">
+          <i class="fa-solid fa-arrow-left"></i> Media play
+        </div>
+        <div class="menu"><i class="fa-solid fa-house-chimney"></i> Home</div>
+        <div class="menu"><i class="fa-solid fa-music"></i> Music library</div>
+        <div class="menu"><i class="fa-solid fa-sliders"></i> Play queue</div>
+        <div class="menu">
+          <i class="fa-solid fa-notes-medical"></i> Playlist
+        </div>
+        <div class="menu">
+          <i class="fa-solid fa-heart-circle-plus"></i> Favourite
+        </div>
+      </div>
+      <div class="item search">
+        <input type="search" placeholder="Search" /><button>
+          <i class="fa-solid fa-magnifying-glass"></i></button
+        ><i class="fa-solid fa-gear" style="color: #ffffff"></i>
+      </div>
+      <div class="item">
+        <div class="listcontainer">
+          <div class="songlist top">
+            <div>Recent</div>
+            <div>Song</div>
+            <div>Album</div>
+            <div>Artist</div>
+          </div>
+          <div class="songlist">
+            <div class="song get"></div>
+            <div class="s">get him back!</div>
+          </div>
+          <div class="songlist">
+            <div class="song thehungergame"></div>
+            <div class="s">The Hunger Game</div>
+          </div>
+          <div class="songlist">
+            <div class="song dejavu"></div>
+            <div class="s">deja vu</div>
+          </div>
+          <div class="songlist">
+            <div class="song happier"></div>
+            <div class="s">happier</div>
+          </div>
+          <div class="songlist">
+            <div class="song happier"></div>
+            <div class="s">bad idea right?</div>
+          </div>
+        </div>
+      </div>
+      <div class="item aboutartist">
+        <div class="aboutimage">About the artist</div>
+        <h3>Olivia Rodrigo</h3>
+        <p>59,592,419 monthely listerner.</p>
+        <button>Follow</button>
+      </div>
+      <div class="item playbtn">
+        <div class="playsection">
+          <div class="songimage"></div>
+          <div class="songname">
+            <h5>drivers license</h5>
+            <p>Olivia rodrigo</p>
+          </div>
+        </div>
+        <div class="playsection middle">
+          <i class="fa-solid fa-shuffle"></i>
+          <i class="fa-solid fa-backward-step"></i>
+          <i class="fa-regular fa-circle-play"></i>
+          <i class="fa-solid fa-forward-step"></i>
+          <i class="fa-solid fa-repeat"></i>
+        </div>
+        <div class="playsection last">
+          <i class="fa-solid fa-volume-high"></i>
+          <i class="fa-regular fa-bookmark"></i>
+          <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
