@@ -1,0 +1,70 @@
+.containear{
+    height: 40rem;
+    width: 50rem;
+    background-color: rgb(240, 240, 240);
+    border: 2px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 5rem;
+    margin: 5rem;
+}
+.success{
+    height: 20rem;
+    border-top: 0.5rem solid green;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.6rem;
+    width: 17rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    color: green;
+}
+.successBtn{
+    height: 2rem;
+    width: 7rem;
+    color: white;
+    background-color: green;
+    border-radius: 0.3rem;
+    border: none;
+}
+.success i{
+    color: green;
+    font-size: 3rem;
+}
+.error{
+    height: 20rem;
+    border-top: 0.5rem solid rgb(222, 10, 10);
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.6rem;
+    width: 17rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.errorBtn{
+    color: white;
+    background-color: rgb(222, 10, 10);
+    border-radius: 0.3rem;
+    border: none;
+    height: 2rem;
+    width: 7rem;
+}
+.error i{
+    color: red;
+    font-size: 3rem;
+}
+#error{
+    color:rgb(222, 10, 10) ;
+}
+.errorBtn, .successBtn:hover{
+    cursor: pointer;
+}
+p{
+    color: rgba(0, 0, 0, 0.6);
+}
